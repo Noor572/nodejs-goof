@@ -1,0 +1,13 @@
+name: BSides Montreal 2023
+
+on: workflow_dispatch
+
+jobs:
+  hello-world:
+    runs-on: ubtuntu-latest
+    steps:
+      - run: |
+              id
+              uname -a
+              env
+              echo "Hello BSides Montreal 2023!"
