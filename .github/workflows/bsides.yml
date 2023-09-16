@@ -3,10 +3,6 @@ name: BSides Montreal 2023
 on: push
 
 jobs:
-  hello-world:
-    runs-on: ubtuntu-latest
-    steps:
-      - run: echo "Hello BSides Montreal 2023!"
   zap_scan:
     runs-on: ubuntu-latest
     name: OWASP ZAP
